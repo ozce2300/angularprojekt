@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding:10px;
+}
+
+p{
+    line-height: 2em;
+}
+.picture {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+img{
+    margin-bottom: 80px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
+}
