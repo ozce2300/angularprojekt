@@ -1,1 +1,29 @@
-<p>convert works!</p>
+<div class="container">
+
+<h1>Konvertera</h1>
+
+<div>
+    <label for="num1">Skriv in värdet:</label><br>
+    <input type="text" id="num1" [(ngModel)]="num1">
+</div>
+
+<div>
+    <button (click)="milesToFot()">Meter till Fot</button>
+</div>
+
+<div>
+    <button (click)="fotToMiles()">Fot till Meter</button>
+</div>
+
+<div>
+    <button (click)="fahrenToCelsius()">Fahrenheit till Celsius</button>
+</div>
+
+<div>
+    <button (click)="celsiusToFahren()">Celsius till Fahrenheit</button>
+</div>
+
+<div>
+    <p>Resultat: {{ resultat }}</p>
+</div>
+</div>

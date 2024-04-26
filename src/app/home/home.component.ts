@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  delfinAi : string = "assets/images/delfin.jpg"
+
 }
